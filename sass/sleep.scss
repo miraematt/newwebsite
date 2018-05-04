@@ -1,0 +1,133 @@
+$black: #000;
+$white: #fff;
+$offblack: #1c1c1c;
+$gold: #FCE676;
+
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+	margin: 0;
+	font-family: 'Oswald', sans-serif;
+	font-weight: bold;
+}
+
+p {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: normal;
+}
+
+h2 {
+	font-size: 2.5em;
+}
+
+.grid {
+	display: grid;
+	grid-template-rows: repeat(2, 3fr 1fr) 3fr 5em;
+	height: 2400px;
+}
+
+header {
+	background: url("../img/Sleepbabybig.jpg") center center no-repeat;
+  	background-size: cover;
+  	display: flex;
+  	flex-flow: column;
+
+  	p {
+  		width: 30%;
+  		margin-left: 1em;
+  		line-height: 1.5em;
+  		min-width: 200px;
+  		font-weight: bold;
+  	}
+
+  	h1 {
+  		font-size: 12.5em;
+  		margin: 0 0 0 0.08em;
+  	}
+}
+
+.btn {
+	display: inline-block;
+	padding: 0.5em 0;
+	color: $white;
+	background-color: $black;
+	width: 150px;
+	min-width: 150px;
+	text-align: center;
+	margin-left: 1em;
+	text-decoration: none;
+}
+
+.supporting, .feature, footer {
+	display: flex;
+	background-color: $offblack;
+	padding: 0 5%;
+	align-items: center;
+
+	.item {
+
+		margin: 0 1em;
+
+		h2 {
+			text-align: center;
+			color: $gold;
+			margin: 0;
+		}
+		
+		p {
+			line-height: 1.5em;
+			color: $white;
+			margin: 0.5em;
+		}
+
+		.btn {
+			background-color: $white;
+			color: $black;
+		}
+	}
+}
+
+.main {
+	background: url("../img/Sleepcat.jpg") center top no-repeat;
+  	background-size: cover;
+
+  	h2 {
+  		color: #fff;
+  		max-width: 45%;
+  		min-width: 265px;
+  	}
+}
+
+.feature {
+	justify-content: center;
+	text-align: center;
+
+	.btn {
+		margin-left: 0;
+	}
+}
+
+.final {
+	background: url("../img/Sleepdogbig.jpg") center center no-repeat;
+  	background-size: cover;
+}
+
+footer {
+
+	p {
+		color: $white;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	
+	header h1 {
+		font-size: 8em;
+	}
+
+	.supporting {
+		flex-flow: column;
+	}
+}

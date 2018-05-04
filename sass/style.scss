@@ -144,11 +144,15 @@ header, .navlinks, footer {
 	max-width: 300px;
 	margin: 0 auto;
 	border: 2px solid #fff;
+
+	&:hover {
+		border: 2px solid $red;
+	}
 }
 
 img {
 	width: 100%;
-	height: auto;
+	height: 100%;
 }
 
 .button {

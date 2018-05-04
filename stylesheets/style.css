@@ -156,14 +156,18 @@ header, .navlinks, footer {
   margin: 0 auto;
   border: 2px solid #fff;
 }
-
-/* line 149, ../sass/style.scss */
-img {
-  width: 100%;
-  height: auto;
+/* line 148, ../sass/style.scss */
+.project:hover {
+  border: 2px solid #ff0000;
 }
 
-/* line 154, ../sass/style.scss */
+/* line 153, ../sass/style.scss */
+img {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 158, ../sass/style.scss */
 .button {
   margin: 2em auto;
   padding: 0.5em 3em;
@@ -174,58 +178,58 @@ img {
   background-color: #dfe7ff;
   border: 2px solid #fff;
 }
-/* line 164, ../sass/style.scss */
+/* line 168, ../sass/style.scss */
 .button:hover {
   color: #072154;
   border: 2px solid #ff0000;
 }
 
-/* line 170, ../sass/style.scss */
+/* line 174, ../sass/style.scss */
 footer {
   padding: 0 5%;
   grid-column: 1 / span 2;
   justify-content: space-between;
 }
-/* line 175, ../sass/style.scss */
+/* line 179, ../sass/style.scss */
 footer ul {
   padding: 0;
 }
-/* line 178, ../sass/style.scss */
+/* line 182, ../sass/style.scss */
 footer ul li {
   list-style: none;
 }
 
 @media only screen and (max-width: 768px) {
-  /* line 186, ../sass/style.scss */
+  /* line 190, ../sass/style.scss */
   .grid {
     grid-template-rows: auto auto 32em auto auto;
     grid-template-columns: 1fr;
   }
 
-  /* line 191, ../sass/style.scss */
+  /* line 195, ../sass/style.scss */
   header, .navlinks {
     grid-column: 1 / span 2;
     margin: 0 auto;
   }
 
-  /* line 196, ../sass/style.scss */
+  /* line 200, ../sass/style.scss */
   h1 {
     margin: 0 auto;
   }
 
-  /* line 200, ../sass/style.scss */
+  /* line 204, ../sass/style.scss */
   .projects {
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr;
   }
 
-  /* line 205, ../sass/style.scss */
+  /* line 209, ../sass/style.scss */
   footer {
     flex-direction: column-reverse;
   }
 }
 @media only screen and (max-width: 480px) {
-  /* line 212, ../sass/style.scss */
+  /* line 216, ../sass/style.scss */
   .projects {
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-columns: 1fr;
