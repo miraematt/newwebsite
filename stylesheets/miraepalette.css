@@ -1,0 +1,78 @@
+/* line 8, ../sass/miraepalette.scss */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 14, ../sass/miraepalette.scss */
+body {
+  background-color: #fff;
+  font-size: 3em;
+}
+
+/* line 19, ../sass/miraepalette.scss */
+h1 {
+  color: #fff;
+}
+
+/* line 23, ../sass/miraepalette.scss */
+h2 {
+  color: #24305e;
+}
+
+/* line 27, ../sass/miraepalette.scss */
+h3 {
+  color: #f8e9a1;
+}
+
+/* line 31, ../sass/miraepalette.scss */
+h4 {
+  color: #f76c6c;
+}
+
+/* line 35, ../sass/miraepalette.scss */
+h5 {
+  color: #374785;
+}
+
+/* line 39, ../sass/miraepalette.scss */
+h6 {
+  color: #a8d0e6;
+}
+
+/* line 43, ../sass/miraepalette.scss */
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+/* line 48, ../sass/miraepalette.scss */
+.darkblue {
+  background-color: #24305e;
+}
+
+/* line 52, ../sass/miraepalette.scss */
+.paleyellow {
+  background-color: #f8e9a1;
+}
+
+/* line 56, ../sass/miraepalette.scss */
+.softpink {
+  background-color: #f76c6c;
+}
+
+/* line 60, ../sass/miraepalette.scss */
+.deepblue {
+  background-color: #374785;
+}
+
+/* line 64, ../sass/miraepalette.scss */
+.lightblue {
+  background-color: #a8d0e6;
+}
+
+/* line 68, ../sass/miraepalette.scss */
+.white {
+  background-color: #fff;
+}

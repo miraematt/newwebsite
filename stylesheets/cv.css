@@ -1,0 +1,108 @@
+/* line 3, ../sass/cv.scss */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Helvetica", san-serif;
+  line-height: 1.4em;
+}
+
+/* line 11, ../sass/cv.scss */
+html {
+  width: 1202px;
+  margin: 0 auto;
+}
+
+/* line 16, ../sass/cv.scss */
+body {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* line 21, ../sass/cv.scss */
+header {
+  text-align: center;
+}
+/* line 24, ../sass/cv.scss */
+header h1 {
+  padding: 2em 0 0 0;
+}
+
+/* line 29, ../sass/cv.scss */
+h2 {
+  padding: 1em 0;
+}
+
+/* line 33, ../sass/cv.scss */
+h3 {
+  font-size: 1em;
+}
+
+/* line 37, ../sass/cv.scss */
+a {
+  text-decoration: none;
+  color: #2A5DB0;
+}
+/* line 41, ../sass/cv.scss */
+a:visited {
+  color: #2A5DB0;
+}
+
+/* line 46, ../sass/cv.scss */
+.contact {
+  display: flex;
+  justify-content: center;
+}
+/* line 50, ../sass/cv.scss */
+.contact p {
+  padding: 0 2em;
+}
+
+/* line 55, ../sass/cv.scss */
+.website {
+  padding-bottom: 1em;
+}
+
+/* line 59, ../sass/cv.scss */
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 6fr;
+  width: 100%;
+}
+/* line 64, ../sass/cv.scss */
+.grid .box {
+  grid-column: 2 / span 2;
+}
+/* line 67, ../sass/cv.scss */
+.grid .box p {
+  padding-bottom: 1em;
+}
+
+/* line 73, ../sass/cv.scss */
+.skills {
+  grid-template-rows: repeat(3, auto);
+}
+
+/* line 77, ../sass/cv.scss */
+.education {
+  grid-template-rows: repeat(3, auto);
+}
+/* line 80, ../sass/cv.scss */
+.education .box {
+  grid-column: 3 / span 1;
+}
+
+/* line 85, ../sass/cv.scss */
+.work {
+  grid-template-rows: repeat(6, auto);
+}
+
+/* line 89, ../sass/cv.scss */
+.info {
+  grid-template-rows: repeat(3, auto);
+}
+
+/* line 93, ../sass/cv.scss */
+.bold {
+  font-weight: bold;
+}

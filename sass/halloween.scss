@@ -1,0 +1,196 @@
+$halloweenorange: #FC6F30;
+
+
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: black;
+	color: $halloweenorange;
+	font-family: Arial, sans-serif;
+	width: 100%;
+	max-width: 1280px;
+	margin: 0 auto;
+}
+
+.background {
+	position: absolute;
+	opacity: 0.6;
+	z-index: -1;
+	font-size: 0;
+	width: 100%;
+	max-width: 1280px;
+
+	.image {
+		height: 550px;
+		overflow: hidden;
+	}
+
+	img {
+		height: auto;
+		width: 100%;
+		max-width: 1280px;
+		position: relative;
+		top: -10%;
+	}
+}
+
+h2 {
+	font-weight: 400;
+	font-size: 2em;
+}
+
+.title {
+	font-size: 4em;
+	font-family: 'Great Vibes', cursive;
+	z-index: 2;
+	padding: 0.5em;
+}
+
+.info {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 1em;
+}
+
+.box {
+	height: 500px;
+	width: 350px;
+	text-align: center;
+}
+
+.slide {
+    margin: 2em auto; 
+    position: relative; 
+    width: 320px; 
+    height: 180px; 
+	border-radius: 10px;
+    border: 2px solid $halloweenorange;
+    overflow: hidden;
+
+    img {
+    	width: 100%;
+    	height: 100%;
+    }
+}
+
+.slide > div { 
+    position: absolute; 
+    
+}
+
+.text {
+	width: 80%;
+	line-height: 1.5em;
+	margin: 0 auto;
+}
+
+.white, .text {
+		color: white;
+	}
+
+footer {
+
+	.orange {
+		height: 100px;
+		background-color: $halloweenorange;
+		color: black;
+		width: 100%;
+	}
+	
+}
+
+@media only screen and (max-width: 1000px) {
+
+	.slide {
+	    width: 240px; 
+	    height: 135px;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+
+	body {
+		width: 100%;
+	}
+
+	.background {
+		width: 100%;
+
+		.image {
+			height: 450px;
+		}
+
+		img {
+			width: 800px;
+			top: -10%;
+			overflow: hidden;
+		}
+	}
+
+	.info {
+		flex-direction: column;
+		align-items: center;
+		margin-top: 100px;
+	}
+
+	.slide {
+	    width: 320px; 
+	    height: 180px;
+	}
+
+	footer {
+		width: 100%;
+
+		.black {
+			background-color: black;
+			height: 200px;
+		}
+
+		.orange {
+			height: 300px;
+		}
+	}
+}
+	
+@media only screen and (max-width: 600px) {
+
+	.background {
+
+		.image {
+			height: 300px;
+		}
+
+		img {
+			width: 600px;
+		}
+	}
+
+	.title {
+		font-size: 2em;
+		padding-top: 2em;
+	}
+}
+
+@media only screen and (max-width: 450px) {
+
+	.background {
+
+		.image {
+			height: 250px;
+		}
+
+		img {
+			width: 450px;
+		}
+	}
+
+	.title {
+		padding-top: 0.5em;
+	}
+}
+

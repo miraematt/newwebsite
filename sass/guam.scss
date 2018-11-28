@@ -1,0 +1,186 @@
+$skyblue: #7BD6F8;
+$beachyellow: #FBECD6;
+
+* {
+	box-sizing: border-box;
+	
+	margin: 0;
+	padding: 0;
+}
+
+
+body, html {
+	background: linear-gradient($skyblue, $beachyellow);
+	font-family: Helvetica, sans-serif;
+	color: midnightblue;
+}
+
+body {
+	display: grid;
+	grid-template-columns: 1fr 4fr;
+	grid-template-rows: 2fr 12fr 1fr;
+	width: 1280px;
+	
+}
+
+header {
+	background: url("../img/Guambeach.jpg") no-repeat 50% 20%;
+  	background-size: cover;
+	grid-column: 1 / span 2;
+
+	h1 {
+		padding: 1em 0.75em;
+		font-size: 3em;
+		text-transform: uppercase;
+		color: white;
+		font-weight: 400;
+		height: 100%;
+	}
+}
+
+nav {
+
+	ul {
+		display: flex;
+		flex-flow: column;
+		align-items: left;
+		padding: 0;
+
+		li {
+			list-style: none;
+			width: 100%;
+			font-size: 2em;
+			
+			
+
+			a {
+				display: block;
+				text-decoration: none;
+				color: midnightblue;
+				padding: 1.125em;
+				border-bottom: 2px solid white;
+				
+				
+
+				&:hover {
+					color: white;
+				}
+			}
+		}
+	}
+}
+
+.grid {
+	width: 1048px;
+	height: 1300px;
+	display: grid;
+	grid-template-columns: repeat(13,1fr);
+	grid-template-rows: repeat(30,1fr);
+	padding-top: 1em;
+
+	.photo {
+
+		overflow: hidden;
+		align-self: center;
+		justify-self: center;
+
+		img {
+			width: 280px;
+			height: auto;
+			margin: 5% 0;
+			border: 2px solid white;
+		}
+
+	}
+
+	.info {
+
+		align-self: top;
+
+		h3 {
+			font-size: 2em;
+			padding: 1em 0.5em;
+			font-weight: 400;
+		}
+
+		p {
+			line-height: 1.5em;
+			padding: 0 1em;
+		}
+	}
+
+	.a {
+		grid-area: 1 / 1 / 7 / 7;
+	}
+
+	.b {
+		grid-area: 1 / 7 / 7 / 13;
+
+		img {
+			width: 400px;
+		}
+	}
+
+	.c {
+		grid-area: 8 / 1 / 12 / 5;
+	}
+
+	.d {
+		grid-area: 8 / 5 / 12 / 9;
+	}
+
+	.e {
+		grid-area: 12 / 1 / 16 / 5;
+	}
+
+	.f {
+		grid-area: 12 / 5 / 16 / 9;
+	}
+
+	.g {
+		grid-area: 10 / 3 / 14 / 7;
+
+		img {
+			padding: 0;
+			border-radius: 50%;
+		}
+	}
+
+	.h {
+		grid-area: 8 / 9 / 16 / 13;
+	}
+
+	.i {
+		grid-area: 17 / 1 / 19 / 13;
+	}
+
+	.j {
+		grid-area: 24 / 1 / 28 / 5;
+	}
+
+	.k {
+		grid-area: 22 / 5 / 26 / 9;
+	}
+
+	.l {
+		grid-area: 24 / 9 / 28 / 13;
+	}
+
+	.m {
+		grid-area: 26 / 5 / 30 / 9;
+	}
+
+	
+}
+
+footer {
+	grid-column: 1 / span 2;
+	display: flex;
+	align-items: center;
+
+	p {
+		padding-left: 2.25em;
+	}
+}
+
+

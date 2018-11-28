@@ -1,0 +1,70 @@
+$white: #fff;
+$lightblue: #a8d0e6;
+$darkblue: #24305e;
+$paleyellow: #f8e9a1;
+$softpink: #f76c6c;
+$deepblue: #374785;
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: $white;
+	font-size: 3em;
+}
+
+h1 {
+	color: $white;
+}
+
+h2 {
+	color: $darkblue;
+}
+
+h3 {
+	color: $paleyellow;
+}
+
+h4 {
+	color: $softpink;
+}
+
+h5 {
+	color: $deepblue;
+}
+
+h6 {
+	color: $lightblue;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.darkblue {
+	background-color: $darkblue;
+}
+
+.paleyellow {
+	background-color: $paleyellow;
+}
+
+.softpink {
+	background-color: $softpink;
+}
+
+.deepblue {
+	background-color: $deepblue;
+}
+
+.lightblue {
+	background-color: $lightblue;
+}
+
+.white {
+	background-color: $white;
+}

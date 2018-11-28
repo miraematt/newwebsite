@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mirae English</title>
+	<link rel="stylesheet" type="text/css" href="../stylesheets/mirae.css">
+	<link href="https://fonts.googleapis.com/css?family=Pacifico|Poiret+One|Roboto:400,700" rel="stylesheet">
+</head>
+<body>
+	<div class="grid">
+		<header>
+			<div class="short address">
+				<h3>Myeongji Apartment</br>103 Dong 201 Ho</h3>
+			</div>
+			<div class="title">
+				<h1>Mirae English</h1>
+				<p class="quote">"Prepare for the Future"</p>
+				<p class="small">103-201 Myeongji Apart. Tel. 010 2362 6473</p>
+			</div>
+			<div class="phone right">
+				<h3>Telephone</br>010 2362 6473</h3>
+			</div>
+		</header>
+		<section>
+			<nav>
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Join</a></li>
+					<li><a href="#">News</a></li>
+					<li><a href="#">Students</a></li>
+				</ul>
+			</nav>
+			<main>
+				<div class="bigphoto">
+					
+				</div>
+				<div class="intro">
+					<h2>Since 2007</h2>
+					<p>At Mirae English, we have been teaching elementary and middle school students for over ten years, from beginners learning their ABCs for the first time, to high-level students preparing for school exams. Learning English is not easy, but our students put in a lot of effort while having fun at the same time, and are rewarded with a knowledge of the language that will last them a lifetime. Joining Mirae English really is a great way to prepare for your future!</p>
+				</div>
+				<div class="smallphotos">
+					<ul class="littlephotos">
+						<li class="mirae2"></li>
+						<li class="mirae3"></li>
+						<li class="mirae4"></li>
+						<li class="mirae5"></li>
+					</ul>
+				</div>
+				
+				<div class="when">
+					<h2>Hours</h2>
+					<p>We have classes every weekday except national holidays, including during school vacation. Beginner classes start at 3:30pm and our latest class finishes at 9:30pm. All of our classes are for one hour.</p>
+				</div>
+				<div class="map">
+					<div id="miraemap">
+					</div>
+					
+				</div>
+			</main>
+		</section>
+		<footer>
+			<div class="full address">
+				<h4>Mirae English Academy</h4>
+				<ul>
+					<li>103-201 Myeongji Apartment</li>
+					<li>Naegi ri, Poseung eup</li>
+					<li>Pyeongtaek si</li>
+					<li>Gyeonggi do, 17965</li>
+					<li>Republic of Korea</li>
+				</ul>
+				<h4>Tel: +82 10 2362 6473</h4>
+			</div>
+			<div class="teachers">
+				<div class="jenny">
+					<h4>Jenny</h4>
+					<ul>
+						<li>Phonics</li>
+						<li>Grammar</li>
+						<li>Reading</li>
+					</ul>
+				</div>
+				<div class="portrait">
+					<div class="container">
+						<img src="../img/jenny2.jpg" />
+					</div>
+				</div>
+				<div class="matt">
+					<h4>Matt</h4>
+					<ul>
+						<li>Conversation</li>
+						<li>Listening</li>
+						<li>Speaking</li>
+					</ul>
+				</div>
+				<div class="portrait">
+					<div class="container">
+						<img src="../img/matt.jpg" />
+					</div>
+				</div>
+			</div>
+			<div class="copy right">
+				<h4>&copy matthew james 2018</h4>
+			</div>
+		</footer>
+	</div>
+
+	<script>
+// Initialize and add the map
+function initMap() {
+  // The location of Mirae English
+  var mirae = {lat: 36.976894, lng: 126.876971};
+  // The map, centered at Mirae English
+  var map = new google.maps.Map(
+      document.getElementById('miraemap'), {zoom: 13, center: mirae});
+  // The marker, positioned at Uluru
+  var marker = new google.maps.Marker({position: mirae, map: map});
+}
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD3zLXgKXTosUVpKR1XoFKb255JOFrAuVQ&callback=initMap">
+    </script>
+</body>
+</html>

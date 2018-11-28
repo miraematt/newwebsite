@@ -1,0 +1,95 @@
+$linkblue: #2A5DB0;
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Helvetica", san-serif;
+	line-height: 1.4em;
+}
+
+html {
+	width: 1202px;
+	margin: 0 auto;
+}
+
+body {
+	width: 80%;
+	margin: 0 auto;
+}
+
+header {
+	text-align: center;
+
+	h1 {
+		padding: 2em 0 0 0;
+	}
+}
+
+h2 {
+	padding: 1em 0;
+}
+
+h3 {
+	font-size: 1em;
+}
+
+a {
+	text-decoration: none;
+	color: $linkblue;
+
+	&:visited{
+		color: $linkblue;
+	}
+}
+
+.contact {
+	display: flex;
+	justify-content: center;
+
+	p {
+		padding: 0 2em;
+	}
+}
+
+.website {
+	padding-bottom: 1em;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 6fr;
+	width: 100%;
+
+	.box {
+		grid-column: 2 / span 2;
+
+		p {
+			padding-bottom: 1em;
+		}
+	}
+}
+
+.skills {
+	grid-template-rows: repeat(3, auto);
+}
+
+.education {
+	grid-template-rows: repeat(3, auto);
+
+	.box {
+		grid-column: 3 / span 1;
+	}
+}
+
+.work {
+	grid-template-rows: repeat(6, auto);
+}
+
+.info {
+	grid-template-rows: repeat(3, auto);
+}
+
+.bold {
+	font-weight: bold;
+}

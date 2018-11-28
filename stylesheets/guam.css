@@ -1,0 +1,143 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  background: linear-gradient(#7BD6F8, #FBECD6);
+  font-family: Helvetica, sans-serif;
+  color: midnightblue;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: 2fr 12fr 1fr;
+  width: 1280px;
+}
+
+header {
+  background: url("../img/Guambeach.jpg") no-repeat 50% 20%;
+  background-size: cover;
+  grid-column: 1/span 2;
+}
+header h1 {
+  padding: 1em 0.75em;
+  font-size: 3em;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 400;
+  height: 100%;
+}
+
+nav ul {
+  display: flex;
+  flex-flow: column;
+  align-items: left;
+  padding: 0;
+}
+nav ul li {
+  list-style: none;
+  width: 100%;
+  font-size: 2em;
+}
+nav ul li a {
+  display: block;
+  text-decoration: none;
+  color: midnightblue;
+  padding: 1.125em;
+  border-bottom: 2px solid white;
+}
+nav ul li a:hover {
+  color: white;
+}
+
+.grid {
+  width: 1048px;
+  height: 1300px;
+  display: grid;
+  grid-template-columns: repeat(13, 1fr);
+  grid-template-rows: repeat(30, 1fr);
+  padding-top: 1em;
+}
+.grid .photo {
+  overflow: hidden;
+  align-self: center;
+  justify-self: center;
+}
+.grid .photo img {
+  width: 280px;
+  height: auto;
+  margin: 5% 0;
+  border: 2px solid white;
+}
+.grid .info {
+  align-self: top;
+}
+.grid .info h3 {
+  font-size: 2em;
+  padding: 1em 0.5em;
+  font-weight: 400;
+}
+.grid .info p {
+  line-height: 1.5em;
+  padding: 0 1em;
+}
+.grid .a {
+  grid-area: 1/1/7/7;
+}
+.grid .b {
+  grid-area: 1/7/7/13;
+}
+.grid .b img {
+  width: 400px;
+}
+.grid .c {
+  grid-area: 8/1/12/5;
+}
+.grid .d {
+  grid-area: 8/5/12/9;
+}
+.grid .e {
+  grid-area: 12/1/16/5;
+}
+.grid .f {
+  grid-area: 12/5/16/9;
+}
+.grid .g {
+  grid-area: 10/3/14/7;
+}
+.grid .g img {
+  padding: 0;
+  border-radius: 50%;
+}
+.grid .h {
+  grid-area: 8/9/16/13;
+}
+.grid .i {
+  grid-area: 17/1/19/13;
+}
+.grid .j {
+  grid-area: 24/1/28/5;
+}
+.grid .k {
+  grid-area: 22/5/26/9;
+}
+.grid .l {
+  grid-area: 24/9/28/13;
+}
+.grid .m {
+  grid-area: 26/5/30/9;
+}
+
+footer {
+  grid-column: 1/span 2;
+  display: flex;
+  align-items: center;
+}
+footer p {
+  padding-left: 2.25em;
+}
+
+/*# sourceMappingURL=guam.css.map */

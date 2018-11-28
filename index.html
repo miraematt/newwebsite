@@ -8,6 +8,7 @@
   
 <body>
 	<div class="grid">
+		<!-- title and navigation take up two columns of first row on the grid -->
     	<header>
     		<h1>matthew james</h1>
     	</header>
@@ -16,36 +17,40 @@
 			<li class="dropdown">
 				<a href="#">Projects</a>
 				<ul id="dropdown-menu">
-					<li><a href="pages/Projects.html">All projects</a></li>
-		            <li><a href="pages/Mattsmeals.html">Matt's Meals</a></li>
-		            <li><a href="pages/Guam.html">Guam</a></li>
+					<li><a href="pages/projects.html">All projects</a></li>
+		            <li><a href="pages/mirae.html">Mirae English</a></li>
+		            <li><a href="pages/guam.html">Guam</a></li>
 		            <li><a href="pages/twinstudio.html">Twins Studio</a></li>
 		            <li><a href="pages/sleep.html">Sleep</a></li>
-		            <li><a href="pages/Baconbuddies.html">Bacon Buddies</a></li>
+		            <li><a href="pages/halloween.html">Halloween</a></li>
 		            <li><a href="pages/darkside.html">Dark Side</a></li>
 		        </ul>
 			</li>
+			<!-- open cv on new page -->
+			<li><a href="pages/cv.html" target="blank">C.V.</a></li>
+			<!-- contact details at bottom of the page -->
 			<li><a href="#contact">Contact</a></li>
 		</ul>
 			
-		
+		<!-- three further sections span two columns on each row of the grid -->
 		<section class="banner">
 	    	<div class="intro">
 		    	<h2>Hello and Welcome</h2>
-					<p>My name is Matt and I am an aspiring web-developer from England. I have spent the last fifteen years living and working as an English teacher in South Korea (this is the view of the Korean countryside from my apartment).</p>
+				<p>My name is Matt and I am an aspiring web-developer from England. I have spent the last fifteen years living and working as an English teacher in South Korea (this is the view of the Korean countryside from my apartment).</p>
 	    	</div>
 		</section>
-	    <section class="main">
+	    <section class="main" id="projects">
 	    	<div class="feature">
-		    	<h2>Featured projects</h2>
-		    	<p>These are some of the projects I have been working on. They are all simple pages based on the Codecademy HTML/CSS, Javascript and jQuery courses. I am in the process of updating the HTML and CSS for 2018.</p>
+		    	<h2>Featured Projects</h2>
+		    	<p>These are some of the projects I have been working on. They have been chosen to demonstrate my ability to create landing pages using a variety of different techniques, including CSS Grid, Flexbox, Relative Positioning and Responsive Design. For more detailed descriptions of each project, click the "All Projects" button below.</p>
 		    </div>
+		    <!-- all project images can be clicked on to go to that page -->
 	    	<div class="projects">
 	    		<div class="project">
-	    			<img src="img/Mattsmeals.jpg" />
+	    			<a href="pages/mirae.html"><img src="img/mirae.png" /></a>
 	    		</div>
 	    		<div class="project">
-	    			<img src="img/Guam.jpg" />
+	    			<a href="pages/darkside.html"><img src="img/darkside.png" /></a>
 	    		</div>
 	    		<div class="project">
 	    			<a href="pages/twinstudio.html"><img src="img/twinstudio.png" /></a>
@@ -54,13 +59,13 @@
 	    			<a href="pages/sleep.html"><img src="img/sleep.png" /></a>
 	    		</div>
 	    		<div class="project">
-	    			<img src="img/Baconbuddies.jpg" />
+	    			<a href="pages/halloween.html"><img src="img/halloweenthumb.png" /></a>
 	    		</div>
 	    		<div class="project">
-	    			<a href="pages/darkside.html"><img src="img/darkside.png" /></a>
+	    			<a href="pages/guam.html"><img src="img/guam.png" /></a>
 	    		</div>
 	    	</div>
-	    	<button class="button">All projects</button>
+	    	<button class="button"><a href="pages/projects.html">All Projects</a></button>
 		</section>
 	    <footer id="contact">
 	    	<h3>
@@ -73,6 +78,7 @@
 				<li>github id: miraematt</li>
 	        </ul>
 	    </footer>
+	    <!-- scripts added to toggle dropdown menu -->
     <script src="scripts/jquery-3.1.1.js"></script>
   	<script src="scripts/index.js"></script>
 	</div>

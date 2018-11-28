@@ -92,45 +92,51 @@ header h1 {
 }
 
 /* line 92, ../sass/sleep.scss */
+.supporting {
+  align-items: start;
+  padding: 2em 0 1em 0;
+}
+
+/* line 98, ../sass/sleep.scss */
 .main {
   background: url("../img/Sleepcat.jpg") center top no-repeat;
   background-size: cover;
 }
-/* line 96, ../sass/sleep.scss */
+/* line 102, ../sass/sleep.scss */
 .main h2 {
   color: #fff;
   max-width: 45%;
   min-width: 265px;
 }
 
-/* line 103, ../sass/sleep.scss */
+/* line 109, ../sass/sleep.scss */
 .feature {
   justify-content: center;
   text-align: center;
 }
-/* line 107, ../sass/sleep.scss */
+/* line 113, ../sass/sleep.scss */
 .feature .btn {
   margin-left: 0;
 }
 
-/* line 112, ../sass/sleep.scss */
+/* line 118, ../sass/sleep.scss */
 .final {
   background: url("../img/Sleepdogbig.jpg") center center no-repeat;
   background-size: cover;
 }
 
-/* line 119, ../sass/sleep.scss */
+/* line 125, ../sass/sleep.scss */
 footer p {
   color: #fff;
 }
 
 @media only screen and (max-width: 480px) {
-  /* line 126, ../sass/sleep.scss */
+  /* line 132, ../sass/sleep.scss */
   header h1 {
     font-size: 8em;
   }
 
-  /* line 130, ../sass/sleep.scss */
+  /* line 136, ../sass/sleep.scss */
   .supporting {
     flex-flow: column;
   }
