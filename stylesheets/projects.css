@@ -5,10 +5,6 @@
 html {
   text-align: center;
   font-family: "Raleway", sans-serif;
-  background-image: url("../img/Apartments.jpg");
-  background-size: cover;
-  background-position: top;
-  background-attachment: fixed;
   color: #072154;
 }
 
@@ -101,7 +97,7 @@ header, .navlinks, footer {
 .intro {
   width: 80%;
   margin: 7%;
-  padding: 0 1.5em;
+  padding: 1em 1.5em;
   background-color: #dfe7ff;
   opacity: 0.9;
 }
@@ -119,8 +115,6 @@ header, .navlinks, footer {
 .main {
   background-color: #072154;
   grid-column: 1/span 2;
-  width: 80%;
-  margin: 0 auto;
 }
 
 .feature {
@@ -225,6 +219,11 @@ footer ul li {
   .intro p {
     font-size: 1.2em;
   }
+
+  .button a {
+    font-size: 1.5em;
+    padding: 0.5em 1.5em;
+  }
 }
 @media only screen and (max-width: 480px) {
   .projects {
@@ -234,6 +233,10 @@ footer ul li {
 
   .intro p {
     font-size: 1.1em;
+  }
+
+  .button a {
+    font-size: 1.2em;
   }
 }
 
