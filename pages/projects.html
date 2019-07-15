@@ -1,113 +1,145 @@
 <!DOCTYPE html>
 <html>
-<head>
-  	<link rel='stylesheet' type='text/css' href='../stylesheets/projects.css'>
-  	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Raleway" rel="stylesheet">
-  	<title>Matt's New Website</title>
-  	<meta id="meta" name="viewport" content="width=device-width, initial-scale=1.0" />
-</head>
-  
-<body>
-	<div class="grid" id="top">
-    	<header>
-    		<h1>matthew james</h1>
-    	</header>
-    	<ul class="navlinks" role="navigation">
-			<li><a href="../index.html">Home</a></li>
-			<li class="dropdown">
-				<a href="#">Projects</a>
-				<ul id="dropdown-menu">
-					<li><a href="#">All projects</a></li>
-		            <li><a href="mirae.html">Mirae English</a></li>
-		            <li><a href="guam.html">Guam</a></li>
-		            <li><a href="twinstudio.html">Twins Studio</a></li>
-		            <li><a href="sleep.html">Sleep</a></li>
-		            <li><a href="halloween.html">Halloween</a></li>
-		            <li><a href="darkside.html">Dark Side</a></li>
-		        </ul>
-			</li>
-			<li><a href="cv.html" target="blank">C.V.</a></li>
-			<li><a href="#contact">Contact</a></li>
-		</ul>
-			
-		
-		<section class="banner">
-	    	<div class="intro">
-		    	<h2>Projects</h2>
-          		<p>I began making these landing pages while working on Codecademy's HTML/CSS course. I have since rewritten most of them to remove the reliance on frameworks and improve the responsiveness of each page. I have included a variety of techniques such as CSS Grid and Flexbox, and the CSS code uses SASS nesting and variables.</p>
-			</div>
-		</section>
-	    <section class="main" id="projects">
-	    	<div class="feature">
-		    	<h2>Mirae English</h2>
-		    	<p>Our school's homepage has been created using CSS Grid and Flexbox and Responsive Design using media queries. The information section features an embedded Google Map showing the location.</p>
-		    </div>
-	    	<div class="projects">
-	    		<div class="project">
-	    			<a href="mirae.html"><img src="../img/mirae.png" /></a>
-	    		</div>
-	    	</div>
-	    	<div class="feature">
-		    	<h2>Darkside</h2>
-		    	<p>This page is an example of a fully responsive design incorporating a Javascript-enhanced submission form.</p>
-		    </div>
-	    	<div class="projects">
-	    		<div class="project">
-	    			<a href="darkside.html"><img src="../img/darkside.png" /></a>
-	    		</div>
-	    	</div>
-	    	<div class="feature">
-		    	<h2>Twin Studio</h2>
-		    	<p>This uses older techniques of inline-block and auto margin to style the photos responsively.</p>
-		    </div>
-	    	<div class="projects">
-	    		<div class="project">
-	    			<a href="twinstudio.html"><img src="../img/twinstudio.png" /></a>
-	    		</div>
-	    	</div>
-	    	<div class="feature">
-		    	<h2>Sleep</h2>
-		    	<p>While the outline design of this page was taken from a Codecademy project, the code itself has been completely rewritten to give a responsive website using Flexbox.</p>
-		    </div>
-	    	<div class="projects">
-	    		<div class="project">
-	    			<a href="sleep.html"><img src="../img/sleep.png" /></a>
-	    		</div>
-	    	</div>
-	    	<div class="feature">
-		    	<h2>Halloween</h2>
-		    	<p>This responsive page relies on Flexbox to easily align the items. Javascript was used to scroll through the photos and the background image was darkened by using an opacity value over a black background.</p>
-		    </div>
-	    	<div class="projects">
-	    		<div class="project">
-	    			<a href="halloween.html"><img src="../img/halloweenthumb.png" /></a>
-	    		</div>
-	    	</div>
-	    	<div class="feature">
-		    	<h2>Guam</h2>
-		    	<p>This was an early attempt to use CSS Grid and is not responsive.</p>
-		    </div>
-	    	<div class="projects">
-	    		<div class="project">
-	    			<a href="guam.html"><img src="../img/guam.png" /></a>
-	    		</div>
-	    	</div>
-	    	<button class="button"><a href="#top">Back to top</a></button>
-		</section>
-	    <footer id="contact">
-	    	<h3>
-          		&copy matthew james 2019
-        	</h3>
-	        <ul>
-				<li>telephone: +82 10 2771 9116</li>
-				<li>email: mtootell11@gmail.com</li>
-				<li>twitter id: miraematt</li>
-				<li>github id: miraematt</li>
-	        </ul>
-	    </footer>
-    <script src="../scripts/jquery-3.1.1.js"></script>
-  	<script src="../scripts/index.js"></script>
-	</div>
-</body>
+  <head>
+    <link rel="stylesheet" type="text/css" href="../stylesheets/projects.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Raleway"
+      rel="stylesheet"
+    />
+    <title>Matt's New Website</title>
+    <meta
+      id="meta"
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+  </head>
 
+  <body>
+    <div class="grid" id="top">
+      <header>
+        <h1>matthew james</h1>
+      </header>
+      <ul class="navlinks" role="navigation">
+        <li><a href="../index.html">Home</a></li>
+        <li class="dropdown">
+          <a href="#">Projects</a>
+          <ul id="dropdown-menu">
+            <li><a href="#">All projects</a></li>
+            <li><a href="mirae.html">Mirae English</a></li>
+            <li><a href="guam.html">Guam</a></li>
+            <li><a href="twinstudio.html">Twins Studio</a></li>
+            <li><a href="sleep.html">Sleep</a></li>
+            <li><a href="halloween.html">Halloween</a></li>
+            <li><a href="darkside.html">Dark Side</a></li>
+          </ul>
+        </li>
+        <li><a href="pages/matttootellcv.pdf" target="blank">C.V.</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <section class="banner">
+        <div class="intro">
+          <h2>Projects</h2>
+          <p>
+            I began making these landing pages while working on Codecademy's
+            HTML/CSS course. I have since rewritten most of them to remove the
+            reliance on frameworks and improve the responsiveness of each page.
+            I have included a variety of techniques such as CSS Grid and
+            Flexbox, and the CSS code uses SASS nesting and variables.
+          </p>
+        </div>
+      </section>
+      <section class="main" id="projects">
+        <div class="feature">
+          <h2>Mirae English</h2>
+          <p>
+            Our school's homepage has been created using CSS Grid and Flexbox
+            and Responsive Design using media queries. The information section
+            features an embedded Google Map showing the location.
+          </p>
+        </div>
+        <div class="projects">
+          <div class="project">
+            <a href="mirae.html"><img src="../img/mirae.png"/></a>
+          </div>
+        </div>
+        <div class="feature">
+          <h2>Darkside</h2>
+          <p>
+            This page is an example of a fully responsive design incorporating a
+            Javascript-enhanced submission form.
+          </p>
+        </div>
+        <div class="projects">
+          <div class="project">
+            <a href="darkside.html"><img src="../img/darkside.png"/></a>
+          </div>
+        </div>
+        <div class="feature">
+          <h2>Twin Studio</h2>
+          <p>
+            This uses older techniques of inline-block and auto margin to style
+            the photos responsively.
+          </p>
+        </div>
+        <div class="projects">
+          <div class="project">
+            <a href="twinstudio.html"><img src="../img/twinstudio.png"/></a>
+          </div>
+        </div>
+        <div class="feature">
+          <h2>Sleep</h2>
+          <p>
+            While the outline design of this page was taken from a Codecademy
+            project, the code itself has been completely rewritten to give a
+            responsive website using Flexbox.
+          </p>
+        </div>
+        <div class="projects">
+          <div class="project">
+            <a href="sleep.html"><img src="../img/sleep.png"/></a>
+          </div>
+        </div>
+        <div class="feature">
+          <h2>Halloween</h2>
+          <p>
+            This responsive page relies on Flexbox to easily align the items.
+            Javascript was used to scroll through the photos and the background
+            image was darkened by using an opacity value over a black
+            background.
+          </p>
+        </div>
+        <div class="projects">
+          <div class="project">
+            <a href="halloween.html"><img src="../img/halloweenthumb.png"/></a>
+          </div>
+        </div>
+        <div class="feature">
+          <h2>Guam</h2>
+          <p>
+            This was an early attempt to use CSS Grid and is not responsive.
+          </p>
+        </div>
+        <div class="projects">
+          <div class="project">
+            <a href="guam.html"><img src="../img/guam.png"/></a>
+          </div>
+        </div>
+        <button class="button"><a href="#top">Back to top</a></button>
+      </section>
+      <footer id="contact">
+        <h3>
+          &copy matthew james 2019
+        </h3>
+        <ul>
+          <li>telephone: 07708 810680</li>
+          <li>email: matttootell@hotmail.com</li>
+          <li>twitter id: miraematt</li>
+          <li>github id: miraematt</li>
+        </ul>
+      </footer>
+      <script src="../scripts/jquery-3.1.1.js"></script>
+      <script src="../scripts/index.js"></script>
+    </div>
+  </body>
 </html>

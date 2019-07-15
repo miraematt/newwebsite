@@ -1,88 +1,109 @@
 <!DOCTYPE html>
 <html>
-<head>
-  	<link rel='stylesheet' type='text/css' href='stylesheets/style.css'>
-  	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Raleway" rel="stylesheet">
-  	<title>Matt's New Website</title>
-  	<meta id="meta" name="viewport" content="width=device-width, initial-scale=1.0" />
-</head>
-  
-<body>
-	<div class="grid">
-		<!-- title and navigation take up two columns of first row on the grid -->
-    	<header>
-    		<h1>matthew james</h1>
-    	</header>
-    	<ul class="navlinks" role="navigation">
-			<li><a href="#">Home</a></li>
-			<li class="dropdown">
-				<a href="#">Projects</a>
-				<ul id="dropdown-menu">
-					<li><a href="pages/projects.html">All projects</a></li>
-		            <li><a href="pages/mirae.html">Mirae English</a></li>
-		            <li><a href="pages/guam.html">Guam</a></li>
-		            <li><a href="pages/twinstudio.html">Twins Studio</a></li>
-		            <li><a href="pages/sleep.html">Sleep</a></li>
-		            <li><a href="pages/halloween.html">Halloween</a></li>
-		            <li><a href="pages/darkside.html">Dark Side</a></li>
-		        </ul>
-			</li>
-			<!-- open cv on new page -->
-			<li><a href="pages/cv.html" target="blank">C.V.</a></li>
-			<!-- contact details at bottom of the page -->
-			<li><a href="#contact">Contact</a></li>
-		</ul>
-			
-		<!-- three further sections span two columns on each row of the grid -->
-		<section class="banner">
-	    	<div class="intro">
-		    	<h2>Hello and Welcome</h2>
-				<p>My name is Matt and I am an aspiring web-developer from England. I have spent the last fifteen years living and working as an English teacher in South Korea (this is the view of the Korean countryside from my apartment).</p>
-	    	</div>
-		</section>
-	    <section class="main" id="projects">
-	    	<div class="feature">
-		    	<h2>Featured Projects</h2>
-		    	<p>These are some of the projects I have been working on. They have been chosen to demonstrate my ability to create landing pages using a variety of different techniques, including CSS Grid, Flexbox, Relative Positioning and Responsive Design. For more detailed descriptions of each project, click the "All Projects" button below.</p>
-		    </div>
-		    <!-- all project images can be clicked on to go to that page -->
-	    	<div class="projects">
-	    		<div class="project">
-	    			<a href="pages/mirae.html"><img src="img/mirae.png" /></a>
-	    		</div>
-	    		<div class="project">
-	    			<a href="pages/darkside.html"><img src="img/darkside.png" /></a>
-	    		</div>
-	    		<div class="project">
-	    			<a href="pages/twinstudio.html"><img src="img/twinstudio.png" /></a>
-	    		</div>
-	    		<div class="project">
-	    			<a href="pages/sleep.html"><img src="img/sleep.png" /></a>
-	    		</div>
-	    		<div class="project">
-	    			<a href="pages/halloween.html"><img src="img/halloweenthumb.png" /></a>
-	    		</div>
-	    		<div class="project">
-	    			<a href="pages/guam.html"><img src="img/guam.png" /></a>
-	    		</div>
-	    	</div>
-	    	<button class="button"><a href="pages/projects.html">All Projects</a></button>
-		</section>
-	    <footer id="contact">
-	    	<h3>
-          		&copy matthew james 2019
-        	</h3>
-	        <ul>
-				<li>telephone: +82 10 2771 9116</li>
-				<li>email: mtootell11@gmail.com</li>
-				<li>twitter id: miraematt</li>
-				<li>github id: miraematt</li>
-	        </ul>
-	    </footer>
-	    <!-- scripts added to toggle dropdown menu -->
-    <script src="scripts/jquery-3.1.1.js"></script>
-  	<script src="scripts/index.js"></script>
-	</div>
-</body>
+  <head>
+    <link rel="stylesheet" type="text/css" href="stylesheets/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Raleway"
+      rel="stylesheet"
+    />
+    <title>Matt's New Website</title>
+    <meta
+      id="meta"
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+  </head>
 
+  <body>
+    <div class="grid">
+      <!-- title and navigation take up two columns of first row on the grid -->
+      <header>
+        <h1>matthew james</h1>
+      </header>
+      <ul class="navlinks" role="navigation">
+        <li><a href="#">Home</a></li>
+        <li class="dropdown">
+          <a href="#">Projects</a>
+          <ul id="dropdown-menu">
+            <li><a href="pages/projects.html">All projects</a></li>
+            <li><a href="pages/mirae.html">Mirae English</a></li>
+            <li><a href="pages/guam.html">Guam</a></li>
+            <li><a href="pages/twinstudio.html">Twins Studio</a></li>
+            <li><a href="pages/sleep.html">Sleep</a></li>
+            <li><a href="pages/halloween.html">Halloween</a></li>
+            <li><a href="pages/darkside.html">Dark Side</a></li>
+          </ul>
+        </li>
+        <!-- open cv on new page -->
+        <li><a href="pages/matttootellcv.pdf" target="blank">C.V.</a></li>
+        <!-- contact details at bottom of the page -->
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <!-- three further sections span two columns on each row of the grid -->
+      <section class="banner">
+        <div class="intro">
+          <h2>Hello and Welcome</h2>
+          <p>
+            My name is Matt and I am an aspiring web-developer from England. I
+            have spent the last sixteen years living and working as an English
+            teacher in South Korea (this is the view of the Korean countryside
+            from my apartment).
+          </p>
+        </div>
+      </section>
+      <section class="main" id="projects">
+        <div class="feature">
+          <h2>Featured Projects</h2>
+          <p>
+            These are some of the projects I have been working on. They have
+            been chosen to demonstrate my ability to create landing pages using
+            a variety of different techniques, including CSS Grid, Flexbox,
+            Relative Positioning and Responsive Design. For more detailed
+            descriptions of each project, click the "All Projects" button below.
+          </p>
+        </div>
+        <!-- all project images can be clicked on to go to that page -->
+        <div class="projects">
+          <div class="project">
+            <a href="pages/mirae.html"><img src="img/mirae.png"/></a>
+          </div>
+          <div class="project">
+            <a href="pages/darkside.html"><img src="img/darkside.png"/></a>
+          </div>
+          <div class="project">
+            <a href="pages/twinstudio.html"><img src="img/twinstudio.png"/></a>
+          </div>
+          <div class="project">
+            <a href="pages/sleep.html"><img src="img/sleep.png"/></a>
+          </div>
+          <div class="project">
+            <a href="pages/halloween.html"
+              ><img src="img/halloweenthumb.png"
+            /></a>
+          </div>
+          <div class="project">
+            <a href="pages/guam.html"><img src="img/guam.png"/></a>
+          </div>
+        </div>
+        <button class="button">
+          <a href="pages/projects.html">All Projects</a>
+        </button>
+      </section>
+      <footer id="contact">
+        <h3>
+          &copy matthew james 2019
+        </h3>
+        <ul>
+          <li>telephone: 07708 810680</li>
+          <li>email: matttootell@hotmail.com</li>
+          <li>twitter id: miraematt</li>
+          <li>github id: miraematt</li>
+        </ul>
+      </footer>
+      <!-- scripts added to toggle dropdown menu -->
+      <script src="scripts/jquery-3.1.1.js"></script>
+      <script src="scripts/index.js"></script>
+    </div>
+  </body>
 </html>
